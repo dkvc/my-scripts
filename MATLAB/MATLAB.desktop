@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MATLAB
+Exec=sh /home/dkvc/MATLAB/MATLAB.sh
+Icon=/home/dkvc/Pictures/Logos/Matlab_Logo.png
+Type=Application
+Categories=Development;
+Terminal=false
+PrefersNonDefaultGPU=true
