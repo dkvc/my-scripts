@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
-# WARNING: YOU CANNOT RUN THIS. EVEN IF YOU CAN, DO NOT TRY THIS ON YOUR PC.
-# Not much of a hassle even if you run this.
-# Add this to end of your .bashrc script.s
+# Note: This script requires ros_entrypoint.sh in root dir
+# and also requires to be run as root
+# This is used for ros2 container.
+# Warning: Do not do this on your physical machine.
+# Add this to end of your .bashrc script.
 if [ -f /ros_entrypoint.sh ]; then
     source /ros_entrypoint.sh
 else
