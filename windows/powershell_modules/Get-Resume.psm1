@@ -22,7 +22,7 @@ function Get-Resume {
             }
         }
 
-        if ($latestFile -ne $null) {
+        if ($null -ne $latestFile) {
             $resumePath = Join-Path -Path $parentDir -ChildPath "Resume.pdf"
             Copy-Item -Path $latestFile -Destination $resumePath -Force
             Write-Verbose "Latest Resume (v$latestVer) is copied successfully to $parentDir"
